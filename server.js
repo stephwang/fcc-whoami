@@ -13,4 +13,4 @@ app.get('/', function (req, res) {
     }));
 });
 
-app.listen(8080 || process.env.PATH);
+app.listen(process.env.PATH || 8080);
